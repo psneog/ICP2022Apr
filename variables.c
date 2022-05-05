@@ -16,6 +16,8 @@ void main() {
 	char	ch = 'A';
 	char	message[] = "Hello world";
 	
+	int 	x, y, z1, z2;		// to test logical operations
+	
 	// to display the variables
 	printf("The value of a = %d\n", a); 		// display a int variable
 	printf("The value of b = %f\n", b);			// display a float
@@ -53,6 +55,16 @@ void main() {
 	printf("\nFunny...\n");
 	printf("ch = %c, ch = %d\n", ch, ch);
 	printf("c = %c, c = %d, c = %o, c = %0x\n", c, c, c, c);
+	
+	// logical operators
+	printf("\nLogical operations...\n");
+	x = 1;				// true
+	y = 0;				// false
+	z1 = x && !y; 		// x AND NOT Y
+	z2 = x || y; 		// x OR y
+	printf("x = %d, y = %d, z1 = %d, z2 = %d\n", x, y, z1, z2);
+	
+	
 	
 	return;
 }
