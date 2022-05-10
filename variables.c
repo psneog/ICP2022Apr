@@ -64,7 +64,8 @@ void main() {
 	z2 = x || y; 		// x OR y
 	printf("x = %d, y = %d, z1 = %d, z2 = %d\n", x, y, z1, z2);
 	
-	
+	// Display addresses of variables
+	printf("\nAddresses of a, b, x & y are %p, %p, %p & %p respectively\n", &a, &b, &x, &y);
 	
 	return;
 }
