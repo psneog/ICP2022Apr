@@ -16,7 +16,6 @@ the solutions are:
  	> 0  -> real roots
  	< 0  -> imaginary, conjugate complex roots
  
- sqrt (-4) = sqrt ( -  
  
 ***********************************************************/
 
@@ -65,8 +64,8 @@ void main() {
 	 		x1 = - b / (2*a);
 	 		// compute imaginary part
 	 		x2 = sqrt(abs(discriminant))/(2*a);
-	 		// displayb the roots
-	 		printf("x1 = <%f + i%f>, x2 = <%f - i%f>\n", x1, x2, x1, x2);
+	 		// display the roots
+	 		printf("x1 = < %f + i %f >, x2 = < %f - i %f >\n", x1, x2, x1, x2);
 	 	} // end if (discriminant > 0)
 	} // end if (discriminant == 0)
 	
